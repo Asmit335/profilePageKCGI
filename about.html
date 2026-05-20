@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+      }
+
+      video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(73, 149, 185);
+        padding: 15px 30px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      nav a:hover {
+        color: #00d9ff;
+      }
+
+      .about-container {
+        width: 80%;
+        max-width: 900px;
+        margin: 80px auto;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .about-container h2 {
+        margin-bottom: 20px;
+        color: #00d9ff;
+      }
+
+      .about-container p {
+        font-size: 18px;
+        line-height: 1.8;
+      }
+
+      .members {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+      }
+
+      .member-card {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 20px;
+        border-radius: 10px;
+        width: 220px;
+      }
+
+      .member-card h3 {
+        margin-bottom: 10px;
+        color: #00d9ff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>About Us</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <video src="nepalnature.mp4" autoplay muted loop></video>
+
+    <div class="about-container">
+      <h2>Who We Are</h2>
+
+      <p>
+        We are students pursuing a Master's Degree in Information Technology
+        with a concentration in Web Systems Development. This website introduces
+        our group members and highlights our education, interests, skills, and
+        experiences in web development and technology.
+      </p>
+
+      <div class="members">
+        <div class="member-card">
+          <h3>Asmit Khanal</h3>
+          <p>
+            Passionate about web development, UI design, and learning new
+            technologies.
+          </p>
+        </div>
+
+        <div class="member-card">
+          <h3>Bishal Bamrel</h3>
+          <p>
+            Interested in software development, teamwork, and building creative
+            web applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
